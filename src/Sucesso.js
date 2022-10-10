@@ -20,7 +20,7 @@ export default function Sucesso(props) {
                     <h2>Nome: {props.nomecomprador}</h2>
                     <h2>CPF: {props.cpf}</h2>  
                     <div><button onClick={() => {navigate("/") ;
-                    document.location.reload();}}> Home </button></div>
+                    document.reload();}}> Home </button></div>
             </Caixainfos>
         </>
     )
