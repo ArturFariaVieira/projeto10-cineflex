@@ -19,7 +19,8 @@ export default function Sucesso(props) {
                     <h1>Comprador</h1>  
                     <h2>Nome: {props.nomecomprador}</h2>
                     <h2>CPF: {props.cpf}</h2>  
-                    <div><button onClick={() => navigate("/")}> Home </button></div>
+                    <div><button onClick={() => {navigate("/") ;
+                    document.location.reload();}}> Home </button></div>
             </Caixainfos>
         </>
     )
